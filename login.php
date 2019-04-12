@@ -14,7 +14,7 @@ die('Connect Error ('. mysqli_connect_errno() .') '
 . mysqli_connect_error());
 }
 else{
-$sql = "INSERT INTO account (username, password)
+$sql = "INSERT INTO account ('username', 'password')
 values ('$username','$password')";
 if ($conn->query($sql)){
 echo "New record is inserted sucessfully";
