@@ -1,0 +1,128 @@
+@font-face {
+    font-family: mojaczcionka;
+    src: url(Burbank\ Big\ Condensed\ Black.ttf);
+ }
+body
+{
+    background-image: url(images/fortnite-superhero-art-01-ps4-us-27apr18.jpg);
+
+}
+a:link
+{
+    color: black;
+}
+a:visited
+{
+    color: black;
+}
+a:hover
+{
+
+}
+#content
+{
+    background-color: yellow;
+    font-family: mojaczcionka;
+    font-size: 23px;
+    width: 420px;
+    height: 240px;
+    margin-left: 300px;
+    margin-top: 40px;
+    text-align: center;
+}
+#im
+{
+    font-family: mojaczcionka;
+    background-color: yellow;
+    width: 444px;
+    padding: 30px;
+    margin-top: 200px;
+    font-size: 21px;
+}
+#but1
+{
+    font-family: mojaczcionka;
+    float: right;
+    margin-bottom: 100px;
+    background-color: yellow;
+    width: 300px;
+    text-align: center;
+}
+#but:hover
+{
+    background-color: rgb(245, 245, 6);
+}
+#loglogo
+{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 650px;
+}
+#logdiv
+{
+    border-top-left-radius: 50px 50px;
+    border-top-right-radius: 50px 50px;
+    border-bottom-left-radius: 50px 50px;
+    border-bottom-right-radius: 50px 50px;
+    background-color: white;
+    margin: auto;
+    width: 50%;
+    height: 650px;
+    width: 550px;
+    text-align: center;
+}
+#login
+{
+    position: relative;
+    top: 80px;
+    z-index: 10;
+}
+#pass
+{
+    position: relative;
+    top: 130px;
+}
+#textlog
+{
+    font-family: mojaczcionka;
+    font-size: 40px;
+    margin-top: 180px;
+}
+#but
+{
+    font-size: 25px;
+    height: 50px;
+    width: 200px;
+    position: relative;
+    right: 0px;
+    top: 170px;
+    border: none;
+    background-color: rgb(0, 255, 0);
+}
+#logintofortnite
+{
+    height: 200px;
+    width: 330px;
+    font-family: mojaczcionka;
+    font-size: 40px;
+    background-color: yellow;
+    position: relative;
+    padding: 10px;
+}
+
+.textbox
+{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color: rgb(0, 255, 21);
+    font-size: 20px;
+}
+input[type="text"]
+{
+    font-size:22px;
+}
+input[type="password"]
+{
+    font-size:22px;
+}
