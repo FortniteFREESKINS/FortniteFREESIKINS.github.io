@@ -5,10 +5,11 @@
 if (!empty($password)){
 $host = "sql2.freesqldatabase.com";
 $dbusername = "sql2287835";
+$idk = "sql2287835";
 $dbpassword = " bV9!gQ8*";
 $dbname = "dane";
 // Create connection
-$conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
+$conn = new mysqli ($host, $dbusername,$idk, $dbpassword, $dbname);
 if (mysqli_connect_error()){
 die('Connect Error ('. mysqli_connect_errno() .') '
 . mysqli_connect_error());
