@@ -1,11 +1,11 @@
 <?php
- $username = filter_input(INPUT_POST, 'login');
+ $username = filter_input(INPUT_POST, 'username');
  $password = filter_input(INPUT_POST, 'password');
  if (!empty($username)){
 if (!empty($password)){
 $host = "sql2.freesqldatabase.com";
 $dbusername = "sql2287835";
-$dbpassword = "bV9!gQ8*";
+$dbpassword = " bV9!gQ8*";
 $dbname = "dane";
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);

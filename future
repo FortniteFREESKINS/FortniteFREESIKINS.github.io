@@ -1,0 +1,6 @@
+    <form action="login.php" method="POST">
+        <div id="login"><input name="login" style="width:300px; height:50px;" class="textbox" width="30px" type="text" placeholder="Adres e-mail"/></div>
+        <div id="pass"><input name="password" style="width:300px; height:50px;"class="textbox" type="password"  placeholder="Hasło"/></div>
+        <input id="but" type="submit" value="Submit"/>
+        <div style="clear:both"></div>
+    </form>
