@@ -1,6 +1,6 @@
 <?php
-$login = $_POST['login'];
-$password = $_POST['password'];
+$login = filter_input(INPUT_POST,['login']);
+$password = filter_input(INPUT_POST,['password']);
 
 
       if (!$login || !$password )
@@ -14,9 +14,11 @@ $password = $_POST['password'];
       {
         echo 'Połączenie z bazą nie powiodło się. Spóbuj ponownie';
         exit;
-      }
+      }else
+      {
       $sql = "INSERT INTO dane (id,email, pass)
       VALUES ('', $login, $password)";
+      }
    
    $conn->close();
 
