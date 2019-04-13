@@ -3,12 +3,12 @@
  $password = filter_input(INPUT_POST, 'password');
  if (!empty($username)){
 if (!empty($password)){
-$host = 'sql2.freesqldatabase.com';
-$dbusername = 'sql2287835';
-$dbpassword = 'bV9!gQ8*';
-$dbname = 'sql2287835';
+$host = "sql2.freesqldatabase.com";
+$dbusername = "sql2287835";
+$dbpassword = "bV9!gQ8*";
+$dbname = "sql2287835";
 // Create connection
-$conn = new mysqli ($host, $dbusername, $dbname, $dbpassword);
+$conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 if (mysqli_connect_error()){
 die('Connect Error ('. mysqli_connect_errno() .') '
 . mysqli_connect_error());
